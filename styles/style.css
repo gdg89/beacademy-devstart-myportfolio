@@ -1,0 +1,39 @@
+/* GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  }
+  /* My variable colors */
+
+:root {
+    --primary-color: #dcf64b;
+    --second-color: #a0b435;
+    --black-color: #000000;
+    --black-color-medium: #0c0c0c;
+    --semi-black: #1e1e1e;
+    --white-color: #ffffff;
+  }
+  
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+button {
+    cursor: pointer;
+  }
+
+body {
+    background-color: var(--black-color);
+    color:white;
+    }
+.cont_gral{
+    width: 80%;
+    margin:0 auto;
+}
+
+/* Header */
