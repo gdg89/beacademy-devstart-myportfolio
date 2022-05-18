@@ -102,7 +102,7 @@ header nav ul li button a:hover{
  align-items: center;
  justify-content: center;
  padding:4rem;
- background:url("/../img/s-hero-bg.jpg")center;
+ background:url("./../img/s-hero-bg.jpg")center;
  }
 
  .s-hero h2{
