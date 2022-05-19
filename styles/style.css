@@ -143,6 +143,65 @@ header nav ul li button a:hover{
     }
     .s-hero button:hover{
         transform:scale(1.2);
-        box-shadow: 4px 4px 7px rgba(254,254,254, 0.9);
+        box-shadow: 7px 7px 9px var(--white-color);
 
     }
+
+/* CARDS */
+
+.cont-cards{
+    display:flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    margin-top: 8rem;
+}
+.card{
+    width: 25%;
+    min-width: 26.8rem;
+    padding: 2rem 0 2rem 0;
+   
+    
+    }
+.card h3{
+    font-size: 5rem;
+}
+.card-1{
+    display: flex;
+    line-height:5rem;
+    align-items: center;
+}
+.card-1 span{
+    color:var(--primary-color);
+
+}
+.card-2,.card-3,.card-4{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin-left: 2%;
+    color: var(--black-color-medium);
+}
+.card-2:hover,.card-3:hover,.card-4:hover{
+
+}
+.card-2 h3,.card-3 h3,.card-4 h3{
+    font-weight: 100;
+    font-size: 6rem;
+}
+.card-2 p,.card-3 p,.card-4 p{
+    font-size: 3rem;
+    font-weight: 100;
+    margin-top: 5rem;
+    line-height:4rem;
+    
+}
+.cards-bold{
+    font-weight: 600;
+}
+.card-2{
+    background: var(--primary-color)
+}
+.card-3,.card-4{
+    background: var(--white-color);
+}
+
