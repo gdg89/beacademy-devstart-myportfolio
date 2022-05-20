@@ -44,6 +44,7 @@ header,nav, ul, li{
 /* HEADER */
 header{
     padding:2.5rem;
+    padding-top: 5rem;
     justify-content: space-between;
     font-size: 2.5rem;
     
@@ -101,8 +102,9 @@ header nav ul li button a:hover{
  flex-direction: column;
  align-items: center;
  justify-content: center;
+ margin-top: 10rem;
  padding:4rem;
- background:url("./../img/s-hero-bg.jpg")center;
+ background:url("./../img/s-hero-bg.jpg")center no-repeat;
  }
 
  .s-hero h2{
@@ -126,7 +128,7 @@ header nav ul li button a:hover{
  }
      /* tecnologias section hero */
     .tecnologias{
-        margin:2rem;
+        margin:10rem;
     }
     /* button veja meus cases */
     .s-hero button{
@@ -205,3 +207,43 @@ header nav ul li button a:hover{
     background: var(--white-color);
 }
 
+.quem-sou{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 15rem;
+    
+
+}
+.quem-sou h2 span{
+    color: var(--primary-color);
+}
+.quemsou-txt{
+    width: 80%;
+    font-size: 2rem;
+}
+.quemsou-txt :nth-child(3){
+    margin-top: 2rem; 
+    display: flex;
+    align-items: center;
+}
+.quemsou-txt ul li{
+    display: flex;
+    margin:2rem;
+    align-items: center;
+}
+.quem-sou h2 {
+    font-size: 5rem;
+}
+.quem-sou h2 span{
+    color: var(--primary-color);
+}
+.cont-myphoto{
+    display: flex;
+    justify-content: center;
+}
+.cont-myphoto img{
+    width: 40%;
+
+}
+
+/* CASES */
