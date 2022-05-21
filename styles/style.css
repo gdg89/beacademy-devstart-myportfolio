@@ -268,7 +268,7 @@
         font-size: 5rem;
     }
     #sec-cases h2 span{
-        color: var(--primary-color)
+        color: var(--primary-color);
     }
     .cont-cases{
         position: relative;
@@ -308,6 +308,84 @@
         z-index: 3;
         transform:scale(1.1)
     }
-    #sec-contato{
-        margin-top: 60rem;
-    }
+    
+
+
+/* FORM */
+#sec-contato{
+    margin-top: 60rem;
+}
+.cont-form{
+    display: flex;
+    align-items: center;
+    padding: 6rem;
+    
+
+}
+.cont-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cont-form input{
+    height: 5rem;
+}
+.cont-form input, .cont-form textarea{
+    border: 2px solid var(--primary-color);
+    border-radius:0.8rem;
+    margin:0.8rem;
+    background:rgba(84, 82, 82, 0.7);
+    width: 40rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+    font-size: 1.8rem;
+}
+.cont-form textarea{
+    padding:1rem;
+}
+
+/*  FORM BUTTON */
+.cont-form .cont-submit{
+    margin-top: 2rem;
+    margin-right: -70%;
+    padding:0.6rem;
+    border-radius: 0.3rem;
+    transition: 0.8s;
+}
+.cont-form .cont-submit:hover{
+    transform:scale(1.1);
+    box-shadow:5px 5px 7px  var(--white-color);
+}
+.cont-form input[type="submit"]{
+    width: 9rem;
+    height: 4rem;
+    color:var(--black-color-medium);
+    background: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    margin:0;
+}
+
+/* txt "ENTRE EM CONTATO" */
+.cont-form article{
+    text-transform: uppercase;
+    
+}
+.cont-form article h2{
+    font-size: 8rem;
+    line-height: 8rem;
+}
+.cont-form article h2 span{
+    color: var(--primary-color);
+}
+
+
+footer{
+    margin-top: 10rem;
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.2rem;
+}
