@@ -275,7 +275,7 @@
     .cont-cases{
         display: flex;
         margin-top: 5rem;
-        border:3px solid green;
+    
     }
     .case img{
         border-radius: 0.8rem;
