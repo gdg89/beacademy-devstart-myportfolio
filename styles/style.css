@@ -34,7 +34,7 @@
     .cont_gral{
         width: 80%;
         margin:0 auto;
-        min-width: 599px;
+        /* min-width: 599px; */
     }
     header,nav, ul, li{
         display:flex;
@@ -482,8 +482,18 @@ footer{
     .cont_gral{
         width: 90%;
     }
+    header{
+        font-size: 1.1rem;
+    }
     header span img{
-        width: 60%;
+        width: 40%;
+    }
+    header nav ul li{
+        margin-right: 2rem;
+        align-items: center;
+    }
+    header nav ul li button a{
+        font-size: 1.2rem;
     }
     /* cards */
     .sucess{
@@ -514,7 +524,20 @@ footer{
     
  }
  
- @media (max-width: 500px) {
+ @media (max-width: 430px) {
+    header nav{
+       
+        
+    }
+    header span{
+       
+        width: 7rem;
+    }
+    header span img{
+        width: 100%;
+       
+    }
+    }
    
  }
  
