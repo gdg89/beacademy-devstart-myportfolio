@@ -34,6 +34,7 @@
     .cont_gral{
         width: 80%;
         margin:0 auto;
+        min-width: 599px;
     }
     header,nav, ul, li{
         display:flex;
@@ -43,12 +44,14 @@
 
 /* HEADER */
     header{
+
         padding:2.5rem;
         padding-top: 5rem;
         justify-content: space-between;
         font-size: 2.5rem;
         
     }
+    
 
         /* nav */
     header nav ul li{
@@ -163,11 +166,8 @@
     }
     .card{
         width: 25%;
-        min-width: 26.8rem;
         padding: 2rem 0 2rem 0;
-    
-        
-        }
+    }
     .card h3{
         font-size: 5rem;
     }
@@ -215,6 +215,7 @@
         display:flex;
         justify-content: space-around;
         margin-top: 15rem;
+       
         
 
     }
@@ -222,7 +223,7 @@
         color: var(--primary-color);
     }
     .quemsou-txt{
-        width: 80%;
+        padding-right: 3rem;
         font-size: 2rem;
     }
     .quemsou-txt :nth-child(3){
@@ -254,9 +255,10 @@
     .cont-myphoto{
         display: flex;
         justify-content: center;
+        padding:2rem;
     }
     .cont-myphoto img{
-        width: 40%;
+        width: 19.6rem;
 
     }
 
@@ -271,19 +273,15 @@
         color: var(--primary-color);
     }
     .cont-cases{
-        position: relative;
+        display: flex;
         margin-top: 5rem;
-      
-    }
-    .case{
-        position: absolute;
-        width:40rem;
-       
-        
+        border:3px solid green;
     }
     .case img{
         border-radius: 0.8rem;
+        width: 95%;
     }
+    
     .case1{
         transition: 0.8s;
     }
@@ -292,7 +290,7 @@
         transform:scale(1.1)
     }
     .case2{
-        margin-left: 28%;
+         margin-left: -5%;
         margin-top: -2rem;
         z-index: 2;
         transition: 0.8s;
@@ -300,8 +298,9 @@
     .case2:hover{
         transform:scale(1.1)
     }
+    
     .case3{
-        margin-left:58%;
+        margin-left: -5%;
         transition: 0.8s;
     }
     .case3:hover{
@@ -313,7 +312,7 @@
 
 /* FORM */
 #sec-contato{
-    margin-top: 60rem;
+    margin-top: 6rem;
 }
 .cont-form{
     display: flex;
@@ -348,7 +347,7 @@
 
 /*  FORM BUTTON */
 .cont-form .cont-submit{
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-right: -70%;
     padding:0.6rem;
     border-radius: 0.3rem;
@@ -372,6 +371,7 @@
 /* txt "ENTRE EM CONTATO" */
 .cont-form article{
     text-transform: uppercase;
+    padding-right: 9rem;
     
 }
 .cont-form article h2{
@@ -382,10 +382,139 @@
     color: var(--primary-color);
 }
 
+/* FOOTER */
 
 footer{
-    margin-top: 10rem;
+    
+    margin-top: 5rem;
     text-align: center;
-    padding: 3rem;
+    padding: 5rem;
     font-size: 1.2rem;
 }
+.social-footer{
+    display: none;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 1260px) {
+    html{
+       font-size: 58%;
+       
+    }
+    .cont_gral{
+        width: 85%;
+    }
+   .case img{
+       width: 100%;
+   }
+ }
+
+
+ @media (max-width: 1133px) {
+    html{
+        font-size: 40%;
+    }
+     .cont_gral{
+         width: 85%;
+     }
+     /* quem sou */
+     .quemsou-txt p{
+         font-size: 2.8rem;
+     }
+     .quemsou-txt ul li a img{
+        width: 3.5rem;
+    }
+    /* form */
+    .cont-form input{
+        height: 6rem;
+    }
+    .cont-form input, .cont-form textarea{
+        width: 60rem;
+        font-size: 3rem;
+    }
+    .cont-form input[type="submit"]{
+        width: 12rem;
+        height: 6rem;
+        font-size: 2rem;
+     }
+ @media(max-width:900px){
+    .cont-form input, .cont-form textarea{
+        width: 45rem;
+        font-size: 2rem;
+    }
+ }
+ @media (max-width: 768px) {
+     /* header */
+     header span img{
+         width: 70%;
+     }
+     .social-header{
+         display: none;
+     }
+     /* cards */
+     .cont-cards .card-2, .card-3 ,.card-4{
+        font-size: 2rem;
+    }
+     /* form */
+     .cont-form {
+        flex-direction: column;
+     }
+     .cont-form form{
+         margin-top: 10rem;
+     }
+     
+
+     /* footer */
+    .cont_gral footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     }.cont_gral footer ul{
+         margin:0 auto;
+     }
+     .social-footer{
+         display: block;
+         margin:2rem;
+     }
+ }
+ 
+ @media (max-width: 630px) {
+    .cont_gral{
+        width: 90%;
+    }
+    header span img{
+        width: 60%;
+    }
+    /* cards */
+    .sucess{
+        display: flex;
+        justify-content: center;
+    }
+    .cont-cards{
+        width: 60%;
+        flex-direction: column;
+    }
+    .cont-cards .card{
+        width:70%;
+        margin-bottom: 2rem;
+    }
+    .card-2, .card-3, .card-4{
+        margin-left:25%;
+    }
+
+    /* quem sou */
+   
+    .quem-sou{
+        flex-direction: column;
+        padding: 3rem;
+    }
+        
+    
+
+    
+ }
+ 
+ @media (max-width: 500px) {
+   
+ }
+ 
