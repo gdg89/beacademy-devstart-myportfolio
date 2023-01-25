@@ -2,6 +2,7 @@
 
 ## Portfolio de desenvolvedor front-end
 Educational project, carried out in the Devstar program..
+Project link:  https://gdg89.github.io/beacademy-devstart-myportfolio/
 
 #### Technoligies
 * HTML5
