@@ -1,12 +1,9 @@
 # beacademy-devstart-myportfolio
 
 ## Portfolio de desenvolvedor front-end
+Educational project, carried out in the Devstar program..
 
-Portfólio criado aplicando conhecimentos de HTML e CSS,
- adquiridos no programa Beacademy 
-Devstart em conjunto com Paylivre.
-
-#### Tecnologias Utilizadas
+#### Technoligies
 * HTML5
 * CSS
 * Git
